@@ -40,6 +40,7 @@ class SenMatch:
         return embedding
 
 
+
 sm = SenMatch()
 
 
