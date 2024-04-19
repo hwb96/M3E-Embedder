@@ -7,7 +7,6 @@
 ## 前提条件
 
 - 确保您的系统已经安装了 Docker。
-- 确保您的 Docker 版本支持 GPU 并已正确配置。
 - 确保下载m3e嵌入模型[moka-ai/m3e-base · Hugging Face](https://huggingface.co/moka-ai/m3e-base)到`m3e-base`目录下。
 
 ## 步骤 1: 构建 Docker 镜像
