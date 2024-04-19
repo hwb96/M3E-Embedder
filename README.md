@@ -1,6 +1,6 @@
 # Docker 容器部署指南 - m3e-embedding-server
 
-虽然在[MTEB Leaderboard - a Hugging Face Space by mteb](https://huggingface.co/spaces/mteb/leaderboard)嵌入模型榜单上，m3e模型的排名不如2023年那么靠前，但是在我们文旅领域大模型+本地知识库的项目里，我们实验了bge,gte等诸多模型，其他的模型虽然分更高，但是相关性在我们的实验中召回情况不甚理想，而m3e依然是表现最好的那个，您可能需要在您的知识库进行验证。虽然本文档以m3e为主，对于其他模型，代码依然具有通用性。
+虽然在[MTEB Leaderboard - a Hugging Face Space by mteb](https://huggingface.co/spaces/mteb/leaderboard)嵌入模型榜单上，m3e模型的排名不如2023年那么靠前，但是在我们所处的特定领域，我们实验了bge,gte等诸多模型，其他的模型虽然分更高，但是相关性在我们的实验中召回情况不甚理想，而m3e依然是表现最好的那个，您可能需要在您的知识库进行验证。虽然本文档以m3e为主，对于其他模型，代码依然具有通用性。
 
 本文档将指导您如何使用 Docker 构建和部署 m3e-embedding-server 应用。
 
@@ -72,5 +72,5 @@
 ## 注意事项
 
 - 确保 Dockerfile 中的 `requirements.txt` 文件和 `m3e_server` 目录的路径正确无误。
-- Dockerfile里的`leekltw/cuda11.3.1-runtime-ubuntu20.04-python3.10.8`是我在DockerHub上找的非官方镜像，如有需要，访问[nvidia/cuda - Docker Image | Docker Hub](https://hub.docker.com/r/nvidia/cuda)下载英伟达官方镜像。
+- Dockerfile里的`leekltw/cuda11.3.1-runtime-ubuntu20.04-python3.10.8`是我们在DockerHub上找的非官方镜像，如有需要，访问[nvidia/cuda - Docker Image | Docker Hub](https://hub.docker.com/r/nvidia/cuda)下载英伟达官方镜像。
 
