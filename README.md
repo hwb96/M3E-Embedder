@@ -1,6 +1,6 @@
 # Docker 容器部署指南 - m3e-embedding-server
 
-虽然在[MTEB Leaderboard - a Hugging Face Space by mteb](https://huggingface.co/spaces/mteb/leaderboard)嵌入模型榜单上，m3e模型的排名不如2023年那么靠前，但是在我们所处的特定领域，我们实验了bge,gte等诸多模型，其他的模型虽然分更高，但是相关性在我们的实验中召回情况不甚理想，而m3e依然是表现最好的那个，您可能需要在您的知识库进行验证。虽然本文档以m3e为主，对于其他模型，代码依然具有通用性。
+虽然在[MTEB Leaderboard - a Hugging Face Space by mteb](https://huggingface.co/spaces/mteb/leaderboard)嵌入模型榜单上，m3e模型的排名不如2023年那么靠前，但是在我们所处的特定领域，我们实验了bge,gte等诸多模型对本地知识库的召回情况。其他的模型虽然在排名中得分更高，但是相关性在我们的实验中召回情况不甚理想，而m3e依然是表现最好的那个，您可能需要在您的知识库进行验证。虽然本文档以m3e为主，对于其他模型，代码依然具有通用性。
 
 本文档将指导您如何使用 Docker 构建和部署 m3e-embedding-server 应用。
 
